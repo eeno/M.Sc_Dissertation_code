@@ -91,8 +91,8 @@ if __name__ == '__main__':
     
     client = boto3.client('firehose', 
                           region_name='us-east-1',
-                          aws_access_key_id='AKIAJ3RF645LEXIKIU4Q',
-                          aws_secret_access_key='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' 
+                          aws_access_key_id="XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                          aws_secret_access_key="XXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
                           )
 
     delivery_stream = 'ian_twitter_diss'
